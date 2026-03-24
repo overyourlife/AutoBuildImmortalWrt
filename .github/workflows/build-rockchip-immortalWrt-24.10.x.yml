@@ -191,7 +191,7 @@ jobs:
           fi
 
       - name: Upload ImmortWrt as release assets
-        uses: softprops/action-gh-release@v2.2.1
+        uses: softprops/action-gh-release@v2.5.0
         with:
           tag_name: Autobuild
           name: ImmortWrt-Rockchip
